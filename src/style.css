@@ -1,0 +1,23 @@
+.imgDiv{
+    background-color:#F4D433;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    border: solid 1px black;
+
+}
+.picture{
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+    transition: 2s;
+}
+.picture:hover{
+  width: 300px;
+}
+body{
+    font-family: "Playpen Sans", cursive;
+}
