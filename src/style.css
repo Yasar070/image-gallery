@@ -21,3 +21,42 @@
 body{
     font-family: "Playpen Sans", cursive;
 }
+
+@media screen and (max-width:700px){
+   body{
+    font-size: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .imgDiv{
+    height:200px;
+    width: 200px;
+   }
+   .picture{
+    width: 100px;
+    height: 100px;
+   }
+   .modelName{
+    height: 100px;
+    width: 100px;
+   }
+}
+@media screen and (max-width:380px){
+    body{
+        font-size:5vw;
+    }
+    .imgDiv{
+        height: 200px;
+        width: 200px;
+    }
+    .picture{
+        height: 100px;
+        width: 100px;
+    }
+    .modelName{
+        height: 30px;
+        width: 20px;
+        align-items: center;
+        font-size: 2vw;
+    }
+}
